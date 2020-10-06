@@ -21,6 +21,7 @@ for i in Fasta_files:
 #Step 1, option B: in case where the input is just one fasta file
 #Convert the file into a list and mark the sequence identifier lines
 
+file3=[]
 file1=open(<file_path>)
 file2=file1.readlines()
 file1.close()
